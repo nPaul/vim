@@ -1,7 +1,7 @@
 
 
-Install vim from source
-install.vim.sh 
+Install vim from source<br>
+install.vim.sh<br>
 
-Install NeoVim AppImage
-install.nvim.sh
+Install NeoVim AppImage<br>
+install.nvim.sh<br>
