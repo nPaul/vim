@@ -1,7 +1,8 @@
 
 call plug#begin()
 
-Plug 'flazz/vim-colorschemes'
+"Plug 'flazz/vim-colorschemes'
+Plug 'rafi/awesome-vim-colorschemes'
 
 Plug 'scrooloose/nerdtree'
 
@@ -23,7 +24,7 @@ Plug 'farmergreg/vim-lastplace'
 "JavaScript bundle for vim, this bundle provides syntax highlighting and improved indentation.
 Plug 'pangloss/vim-javascript'
 
-"Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'othree/javascript-libraries-syntax.vim'
 
 
 " Syntax: Javascript
@@ -31,6 +32,8 @@ Plug 'yuezk/vim-js'
 
 " Syntax: scss
 Plug 'cakebaker/scss-syntax.vim'
+"Plug 'leafoftree/vim-vue-plugin'
+Plug 'stephpy/vim-yaml'
 
 
 " post install (yarn install | npm install) then load plugin only for editing supported files
@@ -72,7 +75,7 @@ set paste
 set background=dark
 colorscheme gruvbox
 "colorscheme molokai
-"colorscheme solorized
+"colorscheme solarized
 
 "### FZF ###
 nnoremap <C-p> :Files<Cr>
