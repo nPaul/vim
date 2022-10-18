@@ -32,6 +32,10 @@ Plug 'yuezk/vim-js'
 " Syntax: scss
 Plug 'cakebaker/scss-syntax.vim'
 
+" Preview colours in source code while editing
+Plug 'ap/vim-css-color'
+
+Plug 'chase/vim-ansible-yaml'
 
 " post install (yarn install | npm install) then load plugin only for editing supported files
 "Plug 'prettier/vim-prettier', {
@@ -298,7 +302,7 @@ let g:vim_vue_plugin_config = {
       \'syntax': {
       \   'template': ['html'],
       \   'script': ['javascript'],
-      \   'style': ['css'],
+      \   'style': ['css', 'scss', 'sass'],
       \},
       \'full_syntax': [],
       \'initial_indent': [],
@@ -307,3 +311,4 @@ let g:vim_vue_plugin_config = {
       \'foldexpr': 0,
       \'debug': 0,
       \}
+
